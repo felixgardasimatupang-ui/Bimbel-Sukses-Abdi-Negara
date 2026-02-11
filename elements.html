@@ -1,0 +1,233 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Kontak Kami - Bimbel Abdi Negara</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		
+		<!-- Favicon -->
+		<link rel="icon" type="image/svg+xml" href="favicon.svg">
+		<link rel="apple-touch-icon" href="favicon.svg">
+		
+		<!-- Security Headers -->
+		<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self';">
+		<meta http-equiv="X-Frame-Options" content="DENY">
+		<meta http-equiv="X-Content-Type-Options" content="nosniff">
+		<meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+		<meta name="permissions-policy" content="geolocation=(), microphone=(), camera=()">
+		
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/custom-additions.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			.contact-info {
+				background: #f7f7f7;
+				padding: 2em;
+				border-radius: 5px;
+				margin-bottom: 2em;
+			}
+			.contact-info h3 {
+				margin-top: 0;
+			}
+			.contact-item {
+				margin-bottom: 1.5em;
+			}
+			.contact-item .icon {
+				margin-right: 0.5em;
+				color: #4c5c96;
+			}
+			.map-container {
+				margin-top: 2em;
+				border-radius: 5px;
+				overflow: hidden;
+			}
+			input.error, textarea.error {
+				border-color: #f44336 !important;
+			}
+		</style>
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1 id="logo"><a href="index.html">BIMBEL ABDI NEGARA</a></h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Beranda</a></li>
+							<li>
+								<a href="#">Info</a>
+								<ul>
+									<li><a href="left-sidebar.html">Jadwal Program</a></li>
+									<li><a href="right-sidebar.html">Paket Belajar</a></li>
+									<li><a href="no-sidebar.html">Tentang Kami</a></li>
+								</ul>
+							</li>
+							<li><a href="elements.html">Kontak</a></li>
+							<li><a href="index.html#five" class="button primary">Daftar Sekarang</a></li>
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Main -->
+				<div id="main" class="wrapper style1">
+					<div class="container">
+						<header class="major">
+							<h2>Hubungi Kami</h2>
+							<p>Punya pertanyaan? Kami siap membantu Anda!</p>
+						</header>
+
+						<div class="row gtr-150">
+							<div class="col-6 col-12-medium">
+								
+								<!-- Contact Info -->
+								<div class="contact-info">
+									<h3>Informasi Kontak</h3>
+									
+									<div class="contact-item">
+										<span class="icon solid fa-map-marker-alt"></span>
+										<strong>Alamat:</strong><br>
+										Jl. Pahlawan No. 123<br>
+										Jakarta Selatan 12345
+									</div>
+
+									<div class="contact-item">
+										<span class="icon solid fa-phone"></span>
+										<strong>Telepon:</strong><br>
+										<a href="tel:+6282272107000">(021) 2345-6789</a>
+									</div>
+
+									<div class="contact-item">
+										<span class="icon brands fa-whatsapp"></span>
+										<strong>WhatsApp:</strong><br>
+										<a href="https://wa.me/6282272107000" target="_blank">0812-3456-7890</a>
+									</div>
+
+									<div class="contact-item">
+										<span class="icon solid fa-envelope"></span>
+										<strong>Email:</strong><br>
+										<a href="mailto:info@bimbelabdinegara.com">info@bimbelabdinegara.com</a>
+									</div>
+
+									<div class="contact-item">
+										<span class="icon solid fa-clock"></span>
+										<strong>Jam Operasional:</strong><br>
+										Senin - Sabtu: 09:00 - 17:00 WIB<br>
+										Minggu: Tutup
+									</div>
+								</div>
+
+								<!-- Social Media -->
+								<h3>Ikuti Kami</h3>
+								<ul class="icons" style="font-size: 1.5em;">
+									<li><a href="https://facebook.com/bimbelabdinegara" target="_blank" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="https://instagram.com/bimbelabdinegara" target="_blank" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="https://youtube.com/@bimbelabdinegara" target="_blank" class="icon brands fa-youtube"><span class="label">YouTube</span></a></li>
+									<li><a href="https://twitter.com/bimbelabdinegara" target="_blank" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+								</ul>
+
+							</div>
+
+							<div class="col-6 col-12-medium">
+								
+								<!-- Contact Form -->
+								<h3>Kirim Pesan</h3>
+								<form method="post" action="#" class="contact-form">
+									<div class="row gtr-uniform gtr-50">
+										<div class="col-6 col-12-xsmall">
+											<input type="text" name="name" id="name" placeholder="Nama Lengkap" required />
+										</div>
+										<div class="col-6 col-12-xsmall">
+											<input type="email" name="email" id="contact-email" placeholder="Email" required />
+										</div>
+										<div class="col-6 col-12-xsmall">
+											<input type="tel" name="phone" id="phone" placeholder="No. HP/WhatsApp" required />
+										</div>
+										<div class="col-6 col-12-xsmall">
+											<select name="program" id="program" required>
+												<option value="">- Pilih Program -</option>
+												<option value="TNI/POLRI">TNI/POLRI</option>
+												<option value="Kedinasan">Sekolah Kedinasan</option>
+												<option value="CPNS">CPNS</option>
+												<option value="Konsultasi">Konsultasi Umum</option>
+											</select>
+										</div>
+										<div class="col-12">
+											<textarea name="message" id="message" placeholder="Pesan Anda..." rows="6" required></textarea>
+										</div>
+										<div class="col-12">
+											<ul class="actions">
+												<li><input type="submit" value="Kirim Pesan" class="primary" /></li>
+												<li><input type="reset" value="Reset" /></li>
+											</ul>
+										</div>
+									</div>
+								</form>
+
+							</div>
+						</div>
+
+						<!-- Map -->
+						<div class="map-container">
+							<h3>Lokasi Kami</h3>
+							<iframe 
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.2166833344234!2d106.82493631476886!3d-6.229728895497253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e945e34b9d%3A0x5371bf0fdad786a2!2sJakarta!5e0!3m2!1sen!2sid!4v1234567890123!5m2!1sen!2sid" 
+								width="100%" 
+								height="450" 
+								style="border:0;" 
+								allowfullscreen="" 
+								loading="lazy">
+							</iframe>
+						</div>
+
+						<!-- FAQ Section -->
+						<section style="margin-top: 3em;">
+							<h3>Pertanyaan yang Sering Diajukan (FAQ)</h3>
+							
+							<h4>Apakah bisa konsultasi gratis sebelum mendaftar?</h4>
+							<p>Tentu bisa! Kami menyediakan konsultasi gratis untuk calon siswa. Hubungi kami via WhatsApp atau datang langsung ke kantor kami.</p>
+
+							<h4>Bagaimana sistem pembayaran?</h4>
+							<p>Kami menerima pembayaran tunai, transfer bank, dan sistem cicilan 2-3x tanpa bunga. Hubungi admin untuk info lebih detail.</p>
+
+							<h4>Apakah ada jaminan kelulusan?</h4>
+							<p>Kami tidak bisa menjanjikan 100% lulus karena seleksi bergantung pada banyak faktor. Namun, kami memberikan jaminan nilai minimal pada paket VIP dengan syarat ketentuan berlaku.</p>
+
+							<h4>Berapa lama durasi program bimbingan?</h4>
+							<p>Program reguler berlangsung 3 bulan. Namun kami juga menyediakan program Super Camp 2 minggu intensif menjelang hari H.</p>
+
+							<h4>Apakah tersedia kelas online?</h4>
+							<p>Saat ini fokus kami pada kelas offline untuk memaksimalkan pembinaan fisik dan mental. Namun materi digital dan video pembelajaran tersedia untuk akses mandiri.</p>
+						</section>
+
+					</div>
+				</div>
+
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="https://facebook.com/bimbelabdinegara" target="_blank" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="https://instagram.com/bimbelabdinegara" target="_blank" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="https://wa.me/6281234567890" target="_blank" class="icon brands alt fa-whatsapp"><span class="label">WhatsApp</span></a></li>
+						<li><a href="mailto:info@bimbelabdinegara.com" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; 2024 Bimbel Abdi Negara. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/speed-optimizations.js"></script>
+
+	</body>
+</html>

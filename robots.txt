@@ -1,0 +1,10 @@
+# Robots.txt for Bimbel Abdi Negara
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://bimbelabdinegara.com/sitemap.xml
+
+# Disallow admin/private directories
+Disallow: /assets/
+Disallow: /cgi-bin/

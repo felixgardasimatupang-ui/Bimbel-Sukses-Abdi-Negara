@@ -1,0 +1,25 @@
+# Security.txt - Bimbel Abdi Negara
+# This file helps security researchers report vulnerabilities
+
+Contact: mailto:security@bimbelabdinegara.com
+Encryption: https://pgp.keyserver.io/pks/lookup?op=get&search=0xXXXXXXXXXXXXXXX
+Preferred-Languages: id, en
+Policy: https://bimbelabdinegara.com/privacy-policy.html
+
+# Disclosure Guidelines
+# - Please give us reasonable time to respond (48-72 hours)
+# - Do not exploit the vulnerability
+# - Do not access data beyond what is necessary
+# - Do not disclose the vulnerability publicly before we fix it
+
+# Our Security Measures
+# - CSRF protection on all forms
+# - Rate limiting (5 requests per 5 minutes)
+# - Honeypot anti-bot fields
+# - Input sanitization and validation
+# - Security headers (CSP, X-Frame-Options, etc.)
+# - SQL injection pattern detection
+
+# Acknowledgments
+# We appreciate responsible disclosure and will acknowledge
+# researchers who help us improve our security.
